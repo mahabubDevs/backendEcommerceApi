@@ -61,7 +61,7 @@ let registrationController =async (req,res)=>{
                         from: process.env.BASE_EMAIL, // sender address
                         to: email , // list of receivers
                         subject: "Verify Your Email", // Subject line
-                        html: `<div>Please verify your website and click the link OTP ${otp} <a href=#>Verify</a></div>`, // html body
+                        html: `<div>Please is a verify your website and click the link OTP ${otp} <a href=#>Verify</a></div>`, // html body
                       });
                     res.send(user)
                 });
